@@ -6,7 +6,7 @@ ii) Install MongoDB and start the service
 iii) Open the terminal, run below commands to import data for inventory, admin, users
 
 	cd <$GOPATH/src/shopping-cart>
-	mongo < dummyData.js
+	mongo < dummyInventory.js
 	mongo < dummyAdmin.js
 	mongo < dummyUsers.js
 	
